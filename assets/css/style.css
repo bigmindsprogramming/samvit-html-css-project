@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+}
+
+.my-nav-full {
+    display: none;
+}
+
+.dropdown .dropbtn {
+    background-color: greenyellow;
+}
+
+.my-nav-small .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+@media(min-width:560px) {
+    .my-nav-small {
+        display: none;
+    }
+    .my-nav-full {
+        display: block;
+    }
+}
